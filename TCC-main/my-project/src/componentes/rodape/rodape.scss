@@ -1,0 +1,57 @@
+.bloco h3 {
+  color: #000;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.base {
+  border-top: 1px solid #ccc;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  background-color: #d0cfda;
+  padding: 40px 0 20px;
+}
+
+.creditos {
+  color: #252525;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 0.9rem;
+}
+
+.bloco p {
+  font-size: 0.95rem;
+  margin: 5px 0;
+  color: #444;
+}
+
+.bloco {
+  min-width: 220px;
+  flex: 1;
+}
+
+.conteudo-base {
+  text-align: left;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  display: flex;
+  margin: 0 auto 25px;
+}
+
+.loguinho{
+  width: 70px;
+  height: auto;
+}
+
+
+.apps{
+display: flex;
+align-items: center;
+}

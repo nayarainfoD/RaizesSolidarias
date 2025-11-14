@@ -1,0 +1,142 @@
+.login-screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background:#eef6fd;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 380px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #ececec;
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 15px;
+
+  .logo {
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  h2 {
+    color: #007bff;
+    font-weight: 600;
+  }
+}
+
+.profile-circle img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #ccc;
+}
+
+.login-form {
+  width: 100%;
+
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #bde0fe;
+    outline: none;
+    background: #e7f4ff;
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+    transition: 0.2s ease;
+
+    &:focus {
+      border-color: #8ac0ff;
+      background: #fff;
+    }
+  }
+
+  .password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    span {
+      position: absolute;
+      right: 10px;
+      cursor: pointer;
+      color: #666;
+    }
+  }
+
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 0;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: 0.3s;
+
+    &:hover {
+      background: #f4f4f4;
+    }
+  }
+
+  .login-btn {
+    background: #007bff;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s;
+
+    &:hover {
+      background: #e57a00;
+    }
+  }
+}
+
+.login-footer {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+
+  a {
+    color: #ff5a5a;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .forgot {
+    display: block;
+    color: #333;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+}
