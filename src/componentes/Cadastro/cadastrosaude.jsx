@@ -1,6 +1,7 @@
 import React from "react";
 import "./cadastrosaude.scss";
 import nome from "../../images/nome.png";
+import { Link } from 'react-router-dom';
 
 function CadastroSaude() {
   return (
@@ -89,8 +90,9 @@ function CadastroSaude() {
             <label><input type="radio" name="enviarDoc" /> Não</label>
           </div>
         </div>
-
+        <Link to="/login/cadastro3">
         <button type="submit" className="botao-entrar">Entrar</button>
+        </Link>
       </form>
     </div>
   );

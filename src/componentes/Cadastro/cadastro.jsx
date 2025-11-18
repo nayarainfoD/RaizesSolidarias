@@ -1,7 +1,7 @@
 import React from "react";
 import "./cadastro.scss";
 import nome from "../../images/nome.png";
-
+import { Link } from 'react-router-dom';
 
 function Cadastro() {
   return (
@@ -66,8 +66,9 @@ function Cadastro() {
   </div>
   <p className="aviso">clicar marca mais de uma opção</p>
 </div>
-
+        <Link to="/login/cadastro2">
         <button type="submit" className="botao-proximo">Próximo</button>
+        </Link>
       </form>
     </div>
   );

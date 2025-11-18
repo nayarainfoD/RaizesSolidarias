@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useState } from "react";
 import "./login.scss";
 import { FaEye, FaEyeSlash, FaGoogle } from "react-icons/fa";
@@ -52,11 +53,16 @@ function Login() {
 
         <div className="login-footer">
           <p>
-            Não tem uma conta? <a href="#">Crie uma!</a>
+            Não tem uma conta? 
           </p>
+          <Link to='/login/cadastro' >
+            <a>Crie uma!</a>
+          </Link>
+          <Link to="/eesqueceu">
           <a href="#" className="forgot">
             Esqueci a senha
           </a>
+          </Link>
         </div>
       </div>
     </div>

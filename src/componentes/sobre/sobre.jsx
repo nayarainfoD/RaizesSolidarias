@@ -1,5 +1,8 @@
 import React from "react";
 import "./sobre.scss";
+import logo from "../../images/logo..png";
+import plano from "../../images/planos.png";
+
 
 export default function Sobre() {
   return (
@@ -10,7 +13,7 @@ export default function Sobre() {
         <h2>Quem somos</h2>
         <div className="conteudo-flex">
           <img
-            src="https://media.discordapp.net/attachments/1421651223668461631/1438980072760545381/065a84cd779fc035ff59c8a72a88fb37.jpg?format=webp"
+            src={logo}
             alt="Quem Somos"
           />
           <p>
@@ -26,7 +29,7 @@ export default function Sobre() {
         <h2>História</h2>
         <div className="conteudo-flex linha-invertida">
           <img
-            src="https://media.discordapp.net/attachments/1421651223668461631/1438980072760545381/065a84cd779fc035ff59c8a72a88fb37.jpg?format=webp"
+            src={plano}
             alt="História"
           />
           <p>
@@ -83,28 +86,28 @@ export default function Sobre() {
         <div className="logos">
           <div className="logo-item">
             <img 
-              src="https://media.discordapp.net/attachments/1421651223668461631/1438980072760545381/065a84cd779fc035ff59c8a72a88fb37.jpg?format=webp" 
+              src="https://play-lh.googleusercontent.com/qn6t9aaqbxUJDl9SMRlBkgG6SArPRfk_g_m5lyG6SjhpUfiW1PsHuJ6jSuL9GVDqnA" 
             />
-            <p>Secretaria M.</p>
+            <p>Gov</p>
           </div>
 
           <div className="logo-item">
             <img 
-              src="https://media.discordapp.net/attachments/1421651223668461631/1438980072760545381/065a84cd779fc035ff59c8a72a88fb37.jpg?format=webp" 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUnlEwWXo_b-4Wv3bIXoLiE0XHFnoWZVOxZg&s" 
             />
             <p>Ministério</p>
           </div>
 
           <div className="logo-item">
             <img 
-              src="https://media.discordapp.net/attachments/1421651223668461631/1438980072760545381/065a84cd779fc035ff59c8a72a88fb37.jpg?format=webp" 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm43Z9LOh2MwuclRB28dWgFgGhkm6VlTgruA&s" 
             />
             <p>DRSP</p>
           </div>
 
           <div className="logo-item">
             <img 
-              src="https://media.discordapp.net/attachments/1421651223668461631/1438980072760545381/065a84cd779fc035ff59c8a72a88fb37.jpg?format=webp" 
+              src="https://img.elo7.com.br/product/685x685/441AEA9/matriz-bordada-logo-usp-matriz-bordada-logo-usp.jpg" 
             />
             <p>USP</p>
           </div>

@@ -61,8 +61,10 @@ function Cabecalho() {
           <div className="dropdown">
             <button className="dropbtn">Quem somos ▾</button>
             <div className="dropdown-content">
+              <Link to='/quemsomos'>
               <a href="#">História</a>
               <a href="#">Equipe</a>
+              </Link>
             </div>
           </div>
 

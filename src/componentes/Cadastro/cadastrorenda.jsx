@@ -1,7 +1,7 @@
 import React from "react";
 import "./cadastrorenda.scss";
 import nome from "../../images/nome.png";
-
+import { Link } from 'react-router-dom'
 function CadastroRenda() {
   return (
     <div className="renda-container">
@@ -62,8 +62,9 @@ function CadastroRenda() {
             <input type="number" id="numeroComodos" name="numeroComodos" />
           </label>
         </div>
-
+        <Link to="/login/cadastro3">
         <button type="submit" className="botao-proximo">Próximo</button>
+        </Link>
       </form>
     </div>
   );

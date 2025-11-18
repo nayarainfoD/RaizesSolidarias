@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Cadastre-se — Multi-step com Auth</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card" id="authCard">
+      <h2>Login / Registrar</h2>
+      <div id="authForms">
+        <div id="register">
+          <h3>Registrar</h3>
+          <label>CPF<input id="regCpf" /></label>
+          <label>Senha<input id="regPass" type="password" /></label>
+          <button id="btnRegister">Registrar</button>
+        </div>
+        <hr />
+        <div id="login">
+          <h3>Entrar</h3>
+          <label>CPF<input id="logCpf" /></label>
+          <label>Senha<input id="logPass" type="password" /></label>
+          <button id="btnLogin">Entrar</button>
+        </div>
+      </div>
+      <div id="authMsg"></div>
+    </div>
+    <form id="multiForm" class="card" style="display:none">
+      <h1>Cadastre-se</h1>
+      <div id="steps"></div>
+      <div class="buttons">
+        <button type="button" id="prevBtn">Anterior</button>
+        <button type="button" id="nextBtn">Próximo</button>
+        <button type="button" id="saveBtn">Salvar etapa</button>
+      </div>
+      <div id="stepMsg" style="color:green;margin-top:10px"></div>
+      <pre id="output"></pre>
+      <button type="button" id="btnLogout">Sair</button>
+    </form>
+  </div>
+  <script src="assets/multi_auth.js"></script>
+</body>
+</html>
