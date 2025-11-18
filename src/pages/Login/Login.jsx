@@ -58,7 +58,7 @@ function Login() {
           <Link to='/login/cadastro' >
             <a>Crie uma!</a>
           </Link>
-          <Link to="/eesqueceu">
+          <Link to="/esqueceu">
           <a href="#" className="forgot">
             Esqueci a senha
           </a>
