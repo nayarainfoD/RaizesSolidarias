@@ -1,0 +1,103 @@
+.municipios {
+  text-align: center;
+  background-color: #f8faff;
+  padding: 40px 20px;
+
+  
+  .select-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    h3 {
+      background-color: #2b70d6;
+      color: white;
+      padding: 10px 30px;
+      border-radius: 20px;
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+      width: fit-content;
+    }
+
+    select {
+      padding: 10px 6px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      cursor: pointer;
+      background-color: #f5f5f5;
+    text-align: center;
+    text-align-last: center;
+    width: 200px;
+      &:hover {
+        border-color: #2b70d6;
+      }
+    }
+  }
+  h5 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #dbeeff;
+    padding: 6px 50px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    color: #aaa;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+
+  .programas-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .programa-card {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    border: 1px solid #cfe3ff;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+
+    .titulo {
+      color: #007bff;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    p {
+      color: #333;
+      font-size: 0.9rem;
+      margin: 8px 0 12px;
+    }
+
+    .veja-mais {
+      color: #aaa;
+      font-size: 0.85rem;
+      display: block;
+      text-align: right;
+    }
+  }
+}

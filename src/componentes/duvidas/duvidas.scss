@@ -1,0 +1,30 @@
+
+.beneficio-duvidas {
+  text-align: center;
+  margin-top: 50px;
+
+  h2 {
+    background-color: #e2f0ff;
+    padding: 6px 16px;
+    border-radius: 999px;
+    display: inline-block;
+  }
+
+  .beneficio-perguntas {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .beneficio-pergunta {
+    background-color: #f7f5f5;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1.5px solid #ddd;
+    max-width: 400px;
+  }
+}
